@@ -1,0 +1,83 @@
+.auth-form {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.auth-input {
+  margin-bottom: 20px;
+}
+
+.auth-button {
+  background-color: #333 !important;
+  color: #ffffff !important;
+  width: 90px !important;
+  align-self: center; 
+  padding: 10px 20px; 
+  border-radius: 20px !important; 
+}
+
+.toggle-button {
+  color: #000000 !important;
+}
+
+/* --------- Responsiveness --------- */
+
+/* Pantallas grandes (>1200px) */
+@media (min-width: 1200px) {
+  .auth-form {
+    max-width: 350px;
+  }
+
+  .auth-button {
+    width: 120px; 
+  }
+}
+
+/* Pantallas medianas (tablets y pequeñas laptops) */
+@media (max-width: 1024px) {
+  .auth-form {
+    max-width: 80%; 
+  }
+
+  .auth-button {
+    width: 100px; 
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .auth-form {
+    max-width: 90%; 
+  }
+
+  .auth-button {
+    width: 120px; 
+  }
+}
+
+/* Pantallas muy pequeñas (móviles más pequeños) */
+@media (max-width: 480px) {
+  .auth-form {
+    max-width: 95%; 
+  }
+
+  .auth-button {
+    width: 100%;
+    padding: 12px 0; 
+  }
+}
+
